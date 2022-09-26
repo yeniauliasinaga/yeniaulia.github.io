@@ -1,0 +1,49 @@
+body{
+    display:flex;
+    flex-direction:table-column;
+    justify-content: start;
+    align-items: flex-start;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    font-color:black;
+    text-align: start;
+    margin: 0;
+}
+
+table {
+    border: 1px solid black;
+    border-spacing: 0;
+    text-align: start;
+    width: 250vw;
+    height: 80vh;
+    background-color:seashell;
+}
+
+table td {
+    border: 1px solid black;
+    border-spacing: 0;
+    padding: 50px;
+
+}
+
+#img header {
+    padding: 50px ;
+    width: 450px;
+    height:250px;
+    text-align: center;
+
+}
+
+.isi {
+    padding: 150px;
+
+}
+
+#sidebar {
+    padding: 50px;
+    text-align: start;
+ }
+#footer{
+    text-align: start;
+}
